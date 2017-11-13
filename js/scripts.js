@@ -8,5 +8,5 @@ console.log(allNames);
 var newName = 'Marian';
 
 if (allNames.indexOf(newName) === -1) {
-	allNames[8] = newName;
+	allNames.push(newName);
 }
